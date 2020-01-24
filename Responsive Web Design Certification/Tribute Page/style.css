@@ -1,0 +1,40 @@
+body {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#div1 {
+  display: flex;
+  justify-content: center;
+}
+img {
+  display: block;
+  width: 500px;
+  height: auto;
+  padding-top: 20px;
+}
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d3d3d3;
+  width: 800px;
+  box-shadow: 5px 5px 5px grey;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 12px;
+}
+
+a {
+  font-size: 14px;
+}

@@ -1,0 +1,198 @@
+body {
+  background-color: #eee;
+  font-family: Lato;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  position: fixed;
+}
+
+#brand {
+  width: 240px;
+}
+
+#logo {
+  display: block;
+  height: auto;
+  width: 100%;
+  padding-top: 6px;
+}
+
+#navigation {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header {
+  height: 40px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 20px;
+  background-color: #eee;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+}
+
+#section1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#section1 > h1 {
+  font-size: 30px;
+}
+
+#section1 > #form > form > #email {
+  width: 250px;
+  height: 40px;
+  border: 1px solid #ddd;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+#section1 > #form > form > #submit {
+  border: none;
+  height: 40px;
+  width: 120px;
+  background-color: orange;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+#section2 {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+#section2 > ul {
+  list-style: none;
+  width: 80%;
+}
+
+#section2 > ul > li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#section2 > ul > li > div {
+  width: 80%;
+}
+
+#section2 > ul > li > div > p {
+  text-align: left;
+}
+
+#section2 > ul > li > i {
+  align-self: center;
+  color: orange;
+}
+
+#section3 {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+#section4 {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+#section4 > div {
+  height: 320px;
+  width: 320px;
+  border: 1px solid black;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#section4 > div > #div1 > h4 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#section4 > div > #div1 {
+  margin: 1px;
+  background-color: #ddd;
+}
+
+#section4 > div > #div2 > h2,
+p {
+  text-align: center;
+}
+
+#section4 > div > #div2 > p {
+  height: 100px;
+  text-align: center;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+#section4 > div > #div2 > div {
+  display: flex;
+  justify-content: center;
+}
+
+#section4 > div > #div2 > div > button {
+  border: none;
+  height: 40px;
+  width: 100px;
+  background-color: orange;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  padding-right: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: 80%;
+  background-color: #ddd;
+}
+
+footer > div > div > ul {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  list-style: none;
+}
+
+footer > div > div > p {
+  text-align: right;
+  padding-left: 160px;
+}
+
+footer > div > div {
+  display: flex;
+  justify-content: flex-end;
+}
